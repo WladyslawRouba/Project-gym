@@ -1,0 +1,26 @@
+.section {
+    padding: 150px 0;
+}
+.seaction-header {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+.section-title {
+    font-family: var(--font-accent);
+    color: #FFD479;
+    font-weight: 700;
+    font-size: 96px;
+    letter-spacing: 0.08em; 
+}
+
+.section-header p {
+    line-height: 200%;
+}
+.section-trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px;
+}
