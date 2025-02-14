@@ -45,3 +45,17 @@
 .card-trainer:hover::before{
     opacity: 1;
 }
+@media (hover: none) {
+    .card-trainer-name {
+        opacity: 1;
+        top: 50%;
+    }
+    .card-trainer::before {
+        opacity: 1;
+    }
+}
+@media (max-width: 700px) {
+    .card-trainer-name {
+        font-size: 32px;
+    }
+}
