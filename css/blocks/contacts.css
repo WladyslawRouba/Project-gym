@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../../img/contacts/contact-form-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    min-height: 860px;
+    max-width: 1492px;
+    width: 100%;
+}  
+
+.contacts-title {
+    margin-bottom: 40px;
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 1.818rem + 3.41vw, 4.375rem);
+    letter-spacing: 0.06em;
+    color: var(--accent);
+}
+@media (max-width: 700px) {
+    .contacts {
+        padding: 90px 10px;
+        height: auto;
+        
+    }
+}
